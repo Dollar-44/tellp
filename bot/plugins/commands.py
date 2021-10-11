@@ -82,10 +82,12 @@ async def start(bot, update):
                     ]
                 )
             )
+        
         else:
             print(file_type)
         
         return
+
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
