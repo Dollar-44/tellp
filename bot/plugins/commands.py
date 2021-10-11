@@ -127,6 +127,8 @@ async def help(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
+
+
 @Client.on_message(filters.command(["about"]) & filters.private, group=1)
 async def about(bot, update):
     
